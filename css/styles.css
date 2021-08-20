@@ -1,0 +1,21 @@
+:root {
+  --primary-text-color: rgba(33, 33, 33, 1);
+  --secondary-text-color: rgba(117, 117, 117, 1);
+  --accent-color: rgba(33, 150, 243, 1);
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: var(--primary-text-color);
+
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+ul {
+  list-style: none;
+}
+.buttons {
+  cursor: pointer;
+}
+.accent {
+  color: rgba(33, 150, 243, 1);
+}
