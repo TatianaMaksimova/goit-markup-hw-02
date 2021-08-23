@@ -1,8 +1,8 @@
 :root {
-  --primary-text-color: rgba(33, 33, 33, 1);
-  --secondary-text-color: rgba(117, 117, 117, 1);
-  --accent-buttons-color: rgba(255, 255, 255, 1);
-  --accent-color: rgba(33, 150, 243, 1);
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-buttons-color: #ffffff;
+  --accent-color: #2196f3;
 }
 
 body {
@@ -16,7 +16,7 @@ ul {
 }
 
 .logo {
-  color: rgba(0, 0, 0, 1);
+  color: #000000;
   font-family: Raleway, sans-serif;
   font-size: 26px;
   line-height: 1.2;
@@ -24,7 +24,7 @@ ul {
 }
 
 .accent {
-  color: rgba(33, 150, 243, 1);
+  color: var(--accent-color);
 }
 
 .link {
@@ -37,6 +37,9 @@ ul {
 
 .link:hover,
 .link:focus {
+  color: var(--accent-color);
+}
+.portfolio {
   color: var(--accent-color);
 }
 
@@ -53,7 +56,7 @@ ul {
   color: var(--accent-color);
 }
 
-.buttons {
+.button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -62,8 +65,8 @@ ul {
   cursor: pointer;
 }
 
-.buttons:hover,
-.buttons:focus {
+.button:hover,
+.button:focus {
   color: var(--accent-buttons-color);
   background-color: var(--accent-color);
 }
@@ -96,4 +99,12 @@ ul {
 .address {
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
+}
+.footer .item {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer .item:hover,
+.footer .item:focus {
+  color: var(--accent-color);
 }
