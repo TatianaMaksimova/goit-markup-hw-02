@@ -23,7 +23,8 @@ ul {
   text-decoration: none;
 }
 
-.accent {
+.accent,
+.link.portfolio {
   color: var(--accent-color);
 }
 
@@ -39,15 +40,12 @@ ul {
 .link:focus {
   color: var(--accent-color);
 }
-.portfolio {
-  color: var(--accent-color);
-}
 
 .item {
   color: var(--secondary-text-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-decoration: none;
 }
 
@@ -56,6 +54,7 @@ ul {
   color: var(--accent-color);
 }
 
+/* Секция Main */
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -88,8 +87,9 @@ ul {
   line-height: 30px;
 }
 
+/* Footer */
 .footer {
-  background-color: rgba(47, 48, 58, 1);
+  background-color: #2f303a;
   color: var(--accent-buttons-color);
 }
 .footer .logo {
