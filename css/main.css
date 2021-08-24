@@ -106,6 +106,9 @@ ul {
 .job {
   color: var(--secondary-text-color);
 }
+.comands-blok {
+  background-color: #f5f4fa;
+}
 
 /* Footer */
 .footer {
