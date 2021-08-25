@@ -123,6 +123,7 @@ ul {
 
 .job {
   color: var(--secondary-text-color);
+  font-weight: 400;
 }
 
 .comands-blok {
@@ -177,10 +178,10 @@ ul {
   color: var(--accent-buttons-color);
 }
 
-.address {
+.address .bottom {
+  font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
-  font-style: normal;
 }
 
 .footer .item {
