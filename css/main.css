@@ -129,7 +129,11 @@ ul {
   background-color: #f5f4fa;
 }
 
-/* Начало стилизации 2 страницы Портфолио */
+/* Начало стилизации страницы Портфолио */
+.buttons {
+  background-color: #f5f4fa;
+}
+
 .button {
   font-weight: 500;
   font-size: 16px;
