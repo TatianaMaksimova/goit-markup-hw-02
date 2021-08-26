@@ -1,12 +1,12 @@
 :root {
   --primary-text-color: #212121;
   --secondary-text-color: #757575;
-  --accent-buttons-color: #ffffff;
+  --bgd-text-color: #ffffff;
   --accent-color: #2196f3;
 }
 
 body {
-  background-color: var(--accent-bgr-color);
+  background-color: var(--bgd-text-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
 }
@@ -24,11 +24,7 @@ ul {
 }
 
 .accent,
-.link.main {
-  color: var(--accent-color);
-}
-
-.accent,
+.link.main,
 .link.portfolio {
   color: var(--accent-color);
 }
@@ -61,7 +57,7 @@ ul {
 
 /* Главная страница "Студия". Первая секция с баннером "Эффективные решения" */
 .banner-name {
-  color: var(--accent-buttons-color);
+  color: var(--bgd-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -80,7 +76,7 @@ ul {
   display: flex;
   align-items: center;
   text-align: center;
-  color: var(--accent-buttons-color);
+  color: var(--bgd-text-color);
   background-color: var(--accent-color);
 }
 
@@ -130,11 +126,7 @@ ul {
   background-color: #f5f4fa;
 }
 
-/* Начало стилизации страницы Портфолио */
-.buttons {
-  background-color: #f5f4fa;
-}
-
+/* Начало стилизации страницы Портфолио (main) */
 .button {
   font-weight: 500;
   font-size: 16px;
@@ -142,11 +134,12 @@ ul {
   text-align: center;
   font-family: inherit;
   cursor: pointer;
+  background-color: #f5f4fa;
 }
 
 .button:hover,
 .button:focus {
-  color: var(--accent-buttons-color);
+  color: var(--bgd-text-color);
   background-color: var(--accent-color);
 }
 
@@ -171,17 +164,19 @@ ul {
 /* Footer */
 .footer {
   background-color: #2f303a;
-  color: var(--accent-buttons-color);
+  color: var(--bgd-text-color);
 }
 
 .footer .logo {
-  color: var(--accent-buttons-color);
+  color: var(--bgd-text-color);
 }
 
-.address .bottom {
+.address,
+.bottom {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 
 .footer .item {
